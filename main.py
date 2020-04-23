@@ -27,7 +27,7 @@ def weird_trans(text):
 @dp.message_handler(commands=['start'])
 async def send_welcome(message: types.Message):
     await message.reply('Привет! Отправь мне любую фразу, я прогоню ее через несколько переводов '
-                        'Google Translate и отправлю результат')
+                        'Google Translate и отправлю результат. Автор: @egorvoron')
 
 
 @dp.message_handler()
